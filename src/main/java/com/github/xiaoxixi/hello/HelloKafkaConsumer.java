@@ -34,7 +34,7 @@ public class HelloKafkaConsumer {
 
                 System.out.println("record's size:" + records.count());
                 for (ConsumerRecord<String, String> record: records) {
-                    String receiveMsg = String.format("received message offset:%d, topic:%s, partition:%d, key:%s, value:s%",
+                    String receiveMsg = String.format("received message offset:%d, topic:%s, partition:%d, key:%s, value:%s",
                             record.offset(), record.topic(), record.partition(), record.key(), record.value());
                     System.out.println(receiveMsg);
                 }
