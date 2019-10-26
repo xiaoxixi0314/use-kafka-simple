@@ -5,4 +5,6 @@ public class BizConstants {
     public static final String TOPIC_HELLO = "topic_hello_3";
 
     public static final String TOPIC_USER = "topic_user";
+
+    public static final String TOPiC_COMMIT = "topic_commit";
 }
