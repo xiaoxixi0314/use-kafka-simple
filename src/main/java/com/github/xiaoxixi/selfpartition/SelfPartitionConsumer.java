@@ -11,7 +11,7 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
-public class SelfPatitionConsumer {
+public class SelfPartitionConsumer {
 
     public static void main(String[] args) {
         try {
