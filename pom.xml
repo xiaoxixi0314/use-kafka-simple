@@ -34,7 +34,7 @@
 		<alibaba.fastjson.version>1.2.45</alibaba.fastjson.version>
 		<springfox.swagger2.version>2.7.0</springfox.swagger2.version>
 		<rabbitmq.version>5.7.3</rabbitmq.version>
-		<kafka.client.version>2.3.0</kafka.client.version>
+		<kafka.client.version>2.6.3</kafka.client.version>
 	</properties>
 
     <dependencies>
